@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!--    设置移动端的预览设置-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+
+    <link rel="stylesheet" href="./static/css/me.css">
+    <title>博客详情</title>
+
+</head>
+
+<body>
+
+<nav class="ui inverted attached segment m-padded-tb-mini">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui teal header item">Blog</h2>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini home icon"></i>首页</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini idea icon"></i>分类</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini tag icon"></i>标签</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini clone icon"></i>归档</a>
+            <a href="#" class="m-item item m-mobile-hide"><i class="mini info icon"></i>关于我</a>
+
+
+            <div class="right item">
+                <div class=" m-item ui icon inverted transparent input m-mobile-hide">
+                    <input type="text" placeholder="搜索">
+                    <i class=" search link icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui menu toggle icon black button m-top-right m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+
+</nav>
+
+
+
+
+<!--中部-->
+<div class="m-padded-tb-large m-container-sm">
+    <div class="ui container">
+        <div class="ui top attached segment">
+            <div class="ui horizontal link list">
+                <div class="item">
+                    <img src="./static/image/头像.jpg" alt=""
+                         class="ui avatar image m-img-size-mini">
+                    <div class="content"><a href="#" class="header">Re:Re</a></div>
+                </div>
+                <div class="item">
+                    <i class="calendar icon"></i>2020-7-14
+                </div>
+                <div class="item">
+                    <i class="eye icon"></i>2342
+                </div>
+            </div>
+        </div>
+        <div class="ui attached segment">
+<!--            </图片区域>-->
+            <img src="https://unsplash.it/800/450?image=1005" alt="" class="ui fluid rounded image">
+        </div>
+        <div class="ui attached padded segment">
+<!--            内容-->
+            <div class="ui right aligned basic segment">
+                <div class="ui orange basic label">原创</div>
+            </div>
+            <h2 class="ui center aligned header">新疆：把核酸检测呈阳性者等全面排摸出来</h2>
+            <br>
+            <div id="content" class="m-padded-lr m-padded-tb-large">7月17日上午，新疆自治区新冠肺炎疫情防控工作指挥部召开视频会议。会议强调，要严密开展大排查，把核酸检测呈阳性者、无症状感染者、密切接触者、直接接触者全面排摸出来，严格落实医学隔离措施，确保零遗漏、无死角。
+                17日，安徽省气象局和安徽省自然资源厅联合发布地质灾害黄色预警：17日20时至18日20时，六安市全境，滁州市全境，安庆市的潜山市、岳西县发生地质灾害的可能性较大，请注意防范，并加强隐患巡查和排查，一旦发现隐患，提前避险转移。
+
+                此外，安徽省水利厅、安徽省气象局联合发布最新山洪灾害气象预警：17日20时至18日20时，六安市裕安区、舒城县，安庆市岳西县可能发生山洪灾害（蓝色预警）；六安市金寨县、霍山县发生山洪灾害可能性较大（黄色预警）。其他地区也可能因局地短历时强降水引发山洪灾害。
+            </div>
+<!--            标签-->
+            <div class="m-padded-lr">
+                <div class="ui basic teal left pointing label ">新闻</div>
+            </div>
+<!--            赞赏-->
+            <div class="ui center aligned basic segment">
+                <button id="payButton"class="ui orange basic circular button">赞赏</button>
+            </div>
+            <div class="ui payQ flowing popup transition hidden">
+                <div class="ui orange label basic">
+                    <div class="ui images"style="font-size:inherit !important;">
+                        <div class="image">
+                            <img src="./static/image/alipay.jpg" alt="" class="ui image rounded image" style="width:120px">
+                            <div>支付宝打赏</div>
+                        </div>
+                        <div class="image">
+                            <img src="./static/image/wechat.jpg" alt="" class="ui image rounded image" style="width:120px">
+                            <div>微信打赏</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="ui attached positive message">
+<!--            文章说明-->
+            <div class="ui middle aligned grid">
+                <div class="eleven wide column">
+                    <ui class="list">
+                        <li>作者：董晋（联系作者）</li>
+                        <li>发表时间：2020-07-18 02：07</li>
+                        <li>版权声明：自由转载-非商用-非衍生-保持署名</li>
+                        <li>转载：请在文末添加作者QQ二维码</li>
+                    </ui>
+                </div>
+                <div class="five wide column">
+                    <img src="./static/image/QQ.jpg" alt="" class="ui rounded right floated bordered image"style="width:110px">
+                </div>
+            </div>
+        </div>
+        <div class="ui bottom attached segment">
+<!--            留言区域列表-->
+            <div class="ui teal segment">
+                <div class="ui threaded comments">
+                    <h3 class="ui dividing header">Comments</h3>
+                    <div class="comment">
+                        <a class="avatar">
+                            <img src="https://unsplash.it/100/100?image=1005">
+                        </a>
+                        <div class="content">
+                            <a class="author">Matt</a>
+                            <div class="metadata">
+                                <span class="date">今天下午 5:42</span>
+                            </div>
+                            <div class="text">太赞了！ </div>
+                            <div class="actions">
+                                <a class="reply">回复</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <a class="avatar">
+                            <img src="https://unsplash.it/100/100?image=1005">
+                        </a>
+                        <div class="content">
+                            <a class="author">Elliot Fu</a>
+                            <div class="metadata">
+                                <span class="date">昨天上午12:30</span>
+                            </div>
+                            <div class="text">
+                                <p>這對我的研究是非常有用.謝謝!</p>
+                            </div>
+                            <div class="actions">
+                                <a class="reply">回复</a>
+                            </div>
+                        </div>
+                        <div class="comments">
+                            <div class="comment">
+                                <a class="avatar">
+                                    <img src="https://unsplash.it/100/100?image=1005">
+                                </a>
+                                <div class="content">
+                                    <a class="author">Jenny Hess</a>
+                                    <div class="metadata">
+                                        <span class="date">刚刚</span>
+                                    </div>
+                                    <div class="text">艾略特你永远是多么正确 :) </div>
+                                    <div class="actions">
+                                        <a class="reply">回复</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <a class="avatar">
+                            <img src="https://unsplash.it/100/100?image=1005">
+                        </a>
+                        <div class="content">
+                            <a class="author">Joe Henderson</a>
+                            <div class="metadata">
+                                <span class="date">5 天以前</span>
+                            </div>
+                            <div class="text">老兄，这太棒了。非常感谢。 </div>
+                            <div class="actions">
+                                <a class="reply">回复</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui form">
+                <div class="field">
+                    <textarea name="content" placeholder="请输入评论信息"></textarea>
+                </div>
+                <div class="fields">
+                    <div class="field m-mobile-wide m-margin-bottom-mini"><div class="ui left icon input"><i class="user icon"></i><input type="text" placeholder="姓名" name="nickname"></div></div>
+                    <div class="field m-mobile-wide m-margin-bottom-mini"><div class="ui left icon input"><i class="mail icon"></i><input type="text" placeholder="邮箱" name="email"></div></div>
+                    <div class="field m-mobile-wide m-margin-bottom-mini">
+                        <button class="ui teal button m-mobile-wide"><i class="edit icon "></i>发布</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!--    底部-->
+<br>
+<br>
+<footer class="ui inverted vertical segment m-padded-tb-massive">
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
+            <div class="three wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img src="./static/image/qq.jpg" class="ui rounded image" alt="" style="width:110px"></img>
+                    </div>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header  m-text-spaced m-opacity-mini">最新博客</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">Spring Boot</a>
+                    <a href="#" class="item">Spring Boot</a>
+                    <a href="#" class="item">Spring Boot</a>
+                    <a href="#" class="item">Spring Boot</a>
+                </div>
+            </div>
+            <div class="three wide column">
+                <h4 class="ui inverted header  m-text-spaced m-opacity-mini">联系我</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item">Email: ddd9188@126.com</a>
+                    <a href="#" class="item">微博: @为何妥协于平凡</a>
+                    <a href="#" class="item">QQ: 1615521365</a>
+                </div>
+            </div>
+            <div class="seven wide column">
+                <h4 class="ui inverted header  m-text-spaced m-opacity-mini">Blog</h4>
+                <p class="m-text-thin m-text-spaced m-opacity-tiny">
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp这是我的个人博客，寂寞是造物主对群居生物的诅咒，只有孤独才是唯一的出口。</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright@2020-2021 Restart Designed by Dongjin</p>
+    </div>
+
+</footer>
+
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+<script>
+    $('.menu.toggle').click(function () {
+        $('.m-item ').toggleClass('m-mobile-hide');
+    });
+    $('#payButton').popup({
+        popup : $('.payQ.popup'),
+        on : 'click',
+        position:'bottom center'
+    });
+</script>
+</body>
+</html>
